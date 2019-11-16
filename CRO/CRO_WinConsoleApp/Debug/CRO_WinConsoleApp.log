@@ -1,0 +1,9 @@
+﻿  DifferentialDrive.cpp
+  Encoder.cpp
+  Motor.cpp
+  Odometry.cpp
+  SimEncoder.cpp
+  SimMotor.cpp
+  main.cpp
+  Generating Code...
+  CRO_WinConsoleApp.vcxproj -> C:\Users\Admin\Documents\Mechatronik_Master\Embedded Systems\CRO\CRO\Debug\CRO_WinConsoleApp.exe
