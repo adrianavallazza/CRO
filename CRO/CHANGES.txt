@@ -1,3 +1,11 @@
+- 18: Added functions in main of CroPi
+- 17: Added Class RPiCompassI2C and derived it from class Compass
+- 16: Added Class RPiCompassEncoder and derived it from class Compass
+- 15: Added Class Compass to SharedItems
+- 14: Added Class RPiEncoder and derived it from virtual class Encoder
+- 13: Added Class RPiMotor and derived it from virtual class Motor
+- 12: Added Reference to SharedItems Project
+- 11: Added RasPi-Example-Project Blink as CroPi
 - 10: Derived SimEncoder from Encoder
 - 9: Derived SimMotor from Motor
 - 8: Added Abstract Class Encoder

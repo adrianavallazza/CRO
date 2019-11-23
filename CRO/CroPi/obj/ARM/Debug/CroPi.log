@@ -1,0 +1,10 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.1.2'
+  Validating architecture
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  main.cpp
+  Linking objects
+  CroPi.vcxproj -> C:\Users\Admin\Documents\Mechatronik_Master\Embedded Systems\CRO\CRO\CroPi\bin\ARM\Debug\CroPi.out
+  Invoking 'gpio export 17 out', working directory: '/home/pi/projects/CroPi/'
