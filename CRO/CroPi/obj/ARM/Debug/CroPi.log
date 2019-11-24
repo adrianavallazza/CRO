@@ -4,7 +4,15 @@
   Validating architecture
   Starting remote build
   Compiling sources:
+  DifferentialDrive.cpp
   main.cpp
+C:\Users\Admin\Documents\Mechatronik_Master\Embedded Systems\CRO\CRO\CroPi\main.cpp(64,30): warning : conversion from ‘double’ to ‘int’ may change value [-Wfloat-conversion]
+C:\Users\Admin\Documents\Mechatronik_Master\Embedded Systems\CRO\CRO\CroPi\main.cpp(64,30): warning :   dist = odometry->getDistance();
+C:\Users\Admin\Documents\Mechatronik_Master\Embedded Systems\CRO\CRO\CroPi\main.cpp(64,30): warning :          ~~~~~~~~~~~~~~~~~~~~~^~
+C:\Users\Admin\Documents\Mechatronik_Master\Embedded Systems\CRO\CRO\CroPi\main.cpp(98,11): warning : variable ‘compass’ set but not used [-Wunused-but-set-variable]
+C:\Users\Admin\Documents\Mechatronik_Master\Embedded Systems\CRO\CRO\CroPi\main.cpp(98,11): warning :   Compass* compass;
+C:\Users\Admin\Documents\Mechatronik_Master\Embedded Systems\CRO\CRO\CroPi\main.cpp(98,11): warning :            ^~~~~~~
+  RPiMotor.cpp
   Linking objects
   CroPi.vcxproj -> C:\Users\Admin\Documents\Mechatronik_Master\Embedded Systems\CRO\CRO\CroPi\bin\ARM\Debug\CroPi.out
-  Invoking 'gpio export 17 out', working directory: '/home/pi/projects/CroPi/'
+  Invoking 'gpio export 17 out', working directory: '/home/pi/projects/CroPi/CroPi/'

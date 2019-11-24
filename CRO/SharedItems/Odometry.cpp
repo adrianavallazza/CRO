@@ -2,11 +2,16 @@
 
 Odometry::Odometry(Encoder* encoder_left, Encoder* encoder_right)
 {
+	this->encoderLeft = encoder_left;
+	this->encoderRight = encoder_right;
 }
 
 double Odometry::getDistance()
 {
-	return 0.0;
+	memLeftTicks = encoderLeft->get_ticks() * MM_PER_TICK;
+	memRightTicks = encoderRight->get_ticks() * MM_PER_TICK;
+	// ToDo - adjust return value
+	return memLeftTicks;
 }
 
 double Odometry::getHeading()
@@ -16,6 +21,8 @@ double Odometry::getHeading()
 
 void Odometry::reset()
 {
+	memLeftTicks = 0;
+	memRightTicks = 0;
 }
 
 double Odometry::ticksToAngle(long ticks)

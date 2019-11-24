@@ -4,12 +4,12 @@
 class DifferentialDrive
 {
 private:
-	Motor* motorLeft;
-	Motor* motorRight;
+	 Motor* motorLeft;
+	 Motor* motorRight;
 
 public:
 	DifferentialDrive(Motor* motor_left, Motor* motor_right);
-	void moveForward();
+	void moveLinear(int power);
 	void stop();
 	void turnLeft();
 	void turnRight();
